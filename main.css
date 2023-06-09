@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body > header  {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+
+}
+
+#sports .articles article a{
+    background-color: #009432;
+    border-radius: 7px 7px;
+    box-shadow: 2px 4px 9px -3px black;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+    border-radius: 7px 7px;
+    box-shadow: 2px 4px 9px -3px black;
+}
+
+#tecnologia{
+    background-color: #0747bea1;
+}
+
+#tecnologia .articles article a {
+    background-color: #08080846;
+    border-radius: 7px 7px;
+    box-shadow: 2px 4px 9px -3px black;
+}
+
+#entretenimento{
+    background-color: rgba(218, 63, 2, 0.562);
+}
+
+#entretenimento .articles article a {
+    background-color: #a00b0b46;
+    border-radius: 7px 7px;
+    box-shadow: 2px 4px 9px -3px black;
+}
